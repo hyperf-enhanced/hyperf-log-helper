@@ -12,7 +12,7 @@
     },
     "autoload": {
         "psr-4": {
-            "hyperf\\Pro\\LogHelper": "src/"
+            "hyperf\\Pro\\LogHelper\\": "src/"
         },
         "files": [
             "src/Helper/helpers.php"
