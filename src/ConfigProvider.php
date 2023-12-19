@@ -12,7 +12,7 @@ class ConfigProvider
         return [
             'publish' => [
                 [
-                    'id' => 'logger',
+                    'id' => 'hyperf-pro/log-helper',
                     'description' => 'logger-config',
                     'source' => __DIR__ . '/../publish/logger.php',
                     'destination' => BASE_PATH . '/config/autoload/logger.php',
